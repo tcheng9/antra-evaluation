@@ -1,0 +1,68 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: fit-content;
+  padding:10px;
+  text-align: center;
+  gap:10px;
+  align-items: stretch;
+
+}
+
+html{
+  display: flex;
+  justify-content: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  justify-content:center;
+}
+
+
+
+.todo-wrapper{
+  display:flex;
+  background-color:#f0f0f0
+  
+}
+
+.pending,
+.complete{
+  list-style-type: none;
+  ;
+}
+
+.title{
+  text-align:left;
+}
+
+.pending li,
+.complete li{
+  display: flex;
+  justify-content: space-between;
+  background-color:#e6e2d3;
+}
+
+.pending li span {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.edit-btn{
+  background-color:#008cba;
+  
+}
+
+.pending-btn,
+.complete-btn{
+  background-color: #c94c4c; 
+}
+
+.delete-btn{
+  background-color:#4caf50
+}
